@@ -25,13 +25,7 @@ function App() {
       amount: 700,
       date: new Date(2021, 15, 12)
     },
-    {
-      id: 'e4',
-      LocationOfExpenditure: 'Location of Expenditure',
-      title: 'Headphones',
-      amount: 650,
-      date: new Date(2021, 28, 12)
-    },
+    
   ];
 
   return (
@@ -57,11 +51,7 @@ function App() {
     </Expenselist>
      
  
-   <Expenselist title={expenses[3].title}
-   LocationOfExpenditure = {expenses[3].LocationOfExpenditure}
-    amount= {expenses[3].amount}
-     date={expenses[3].date}>      
-    </Expenselist>
+  
      
   </div>
    
